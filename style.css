@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-image: url(images/bg.JPG);
+	background-color: salmon ;
+	color: black;
+}
+
+.container {
+	width: 800px;
+	height: 2000px;
+	margin: auto;
+	background-color: #fff ;
+	padding: 50 px;
+}
+
+
+.header .judul {
+	font-size: 50px;
+	color: salmon;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header a {
+	text-decoration: none;
+	color: deeppink;
+}
+
+.header a:hover {
+	background-color: pink;
+	color: white;
+}
+
+
+.content {
+	padding: 50px;
+	margin: auto;
+}
+.content a {
+	text-decoration: none;
+	color: deeppink;
+}
+
+.content a:hover {
+	background-color: pink;
+	color: white;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20 px;
+	color: salmon;
+}
+.content b{
+	font-weight: bold; ;
+	font-size: 23px;
+}
+.content p{
+	margin-top: 50 px;
+	font-size: 20px;
+	font-family: serif;
+
+}
+
+.content img{
+	float: left;
+	margin: auto;
+}
+.gambaraku {
+	padding: 50px;
+	margin: auto;
+}
+.gambaraku img{
+	float: right;
+}
+
+.gambaraku p{
+	margin-bottom: 5px;
+	margin-top: 5 px;
+	font-size: 20px;
+	font-family: serif;
+}
+
+.tabel {
+	font-family: sans-serif;
+	margin: 2px 0;
+	border-radius: 5px 5px 0 0;
+	border-collapse: collapse;
+	min-width: 250px;
+	
+}
+
+.tabel tr th {
+	background-color: salmon ;
+	color: white;
+	font-weight: normal;
+	margin: auto;
+}
+
+.tabel, th, td{
+	padding: 45px 30px;
+	text-align: center;
+}
+
+.tabel tr:hover, td:hover{
+	background-color: peachpuff;
+}
+
+
